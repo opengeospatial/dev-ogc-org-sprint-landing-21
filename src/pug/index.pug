@@ -57,7 +57,7 @@ html(lang='en')
                     img(style='position: absolute; top: 0; right: 0; border: 0;' src='https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png' alt='Fork me on GitHub')
 
         // Masthead
-        header.masthead(title='Map tiles by Stamen Design, CC BY 3.0; Map data by OpenStreetMap contributors')
+        header.masthead
             .container
                 .masthead-heading.text-uppercase #{title}
                 
@@ -370,17 +370,10 @@ html(lang='en')
             .container-fluid
                 .text-center
                     h2.section-heading.text-uppercase Sponsors
-                    p.text-muted 
-                        | Interested in sponsoring the Web Mapping Code Sprint? Email us at: 
-                        a(href='mailto:standards-team@ogc.org')
-                                i.fa.fa-envelope
-                    div.py-5
-                        .container
-                            .row.text-center
-                                .col
-                                    a(href='https://www.ordnancesurvey.co.uk/')
-                                        img.img-fluid.img-brand.d-block.mx-auto(src='assets/img/logos/os.svg', alt='...')
-                                    | Gold-level sponsor
+                    p.text-muted
+                        | If you are interested in sponsoring the Code Sprint, please check our 
+                        a(href='https://developer.ogc.org/sprints/sponsoring/') sponsoring packages.
+
 
                 //- p.text-muted.small 
                 //-     | * The logos above are only for demo purposes.
