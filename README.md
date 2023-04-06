@@ -10,13 +10,4 @@ Publish to GitHub Pages with:
 
 Available at:
 
-`https://opengeospatial.github.io/dev-ogc-org-sprint-landing-18/`
-
-
-Add git submodule:
-
-`git submodule add -b gh-pages https://github.com/opengeospatial/dev-ogc-org-sprint-landing-18.git sprints/18`
-
-Update git submodule:
-
-`git submodule foreach git pull origin gh-pages`
+`https://developer.ogc.org/sprints/21/`
